@@ -11,9 +11,9 @@ f:I[4911,[],"AsyncMetadataOutlet"]
 11:I[9665,[],"ViewportBoundary"]
 13:I[6614,[],""]
 :HL["/_next/static/css/220751dcb2cdf23d.css","style"]
-2:T5c8,
+2:T5d7,
     try {
-      const cfg = {"enabled":false,"locales":["en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":false,"labels":{"en":"English"}};
+      const cfg = {"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"auto","fixedLocale":"en","persist":true,"switcher":true,"labels":{"zh":"中文","en":"English"}};
       const storageKey = 'locale-storage';
       const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
       const matchLocale = (candidate) => {
@@ -57,56 +57,150 @@ f:I[4911,[],"AsyncMetadataOutlet"]
       root.lang = 'en';
       root.setAttribute('data-locale', 'en');
     }
-  0:{"P":null,"b":"fEhnDFKC_lFiIwVZ0U-Nz","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/220751dcb2cdf23d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"font","type":"font/woff2","href":"https://jialeliu.com/fonts/georgiab.woff2","crossOrigin":""}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":false,"locales":["en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":false,"labels":{"en":"English"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Shiwen Mao","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"en":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"CV","type":"page","target":"cv","href":"/cv"}]},"siteTitleByLocale":{"en":"Shiwen Mao"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{"lastUpdated":"September 4, 2026","lastUpdatedByLocale":{"en":"September 4, 2026"},"defaultLocale":"en"}]]}]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",["$","$La",null,{"children":"$Lb"}],null,["$","$Lc",null,{"children":["$Ld","$Le",["$","$Lf",null,{"promise":"$@10"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","2R3ZBHX72xuP9EzYwSm2v",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],null]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+  0:{"P":null,"b":"M398Q20nEzJ1mt_MSnBUw","p":"","c":["","cv",""],"i":false,"f":[[["",{"children":[["slug","cv","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/220751dcb2cdf23d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"font","type":"font/woff2","href":"https://jialeliu.com/fonts/georgiab.woff2","crossOrigin":""}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":true,"locales":["zh","en"],"defaultLocale":"en","mode":"auto","fixedLocale":"en","persist":true,"switcher":true,"labels":{"zh":"中文","en":"English"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Shiwen Mao","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"zh":[{"title":"关于","type":"page","target":"about","href":"/"},{"title":"经历","type":"page","target":"experience","href":"/experience"},{"title":"简历","type":"page","target":"cv","href":"/cv"}],"en":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Experience","type":"page","target":"experience","href":"/experience"},{"title":"CV","type":"page","target":"cv","href":"/cv"}]},"siteTitleByLocale":{"zh":"毛仕文","en":"Shiwen Mao"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{"lastUpdated":"September 18, 2026","lastUpdatedByLocale":{"zh":"2026年9月18日","en":"September 18, 2026"},"defaultLocale":"en"}]]}]}]}]]}]]}],{"children":[["slug","cv","d"],["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",["$","$La",null,{"children":"$Lb"}],null,["$","$Lc",null,{"children":["$Ld","$Le",["$","$Lf",null,{"promise":"$@10"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","7MAnMacEdzSYYKwngIN66",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],null]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
 14:"$Sreact.suspense"
 15:I[4911,[],"AsyncMetadata"]
 17:I[2382,["461","static/chunks/461-a9a5d7b05a71d978.js","178","static/chunks/178-595a94b9af1e67b5.js","748","static/chunks/748-84df502d24ed20fb.js","182","static/chunks/app/%5Bslug%5D/page-41d89709ea2b85f9.js"],"default"]
 b:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
-18:Tbfd,# Shiwen Mao
+18:T1551,# 毛仕文
 
-Email: 13960922882@163.com · Tel: 13960922882 · Shihezi, China
+邮箱：shiwen_mao@163.com · 电话：(+86)13960922882 · 中国福州
+
+## 教育背景
+
+**石河子大学（211）**，金融学，*2023.08 - 2027.06（在读）* — 中国石河子
+
+- **GPA：** 3.91/5（89.12/100）；**专业排名：** 15/74
+- **主修课程：** 金融学、会计学、财务会计、高等数学、Python 程序设计、数据分析与可视化、大数据金融分析、计量经济学、统计学、概率论与数理统计、大数据营销、公司金融、金融科技
+- **交换经历：** 2024 年 9 月至 2025 年 7 月，在华南农业大学完成一年交换学习，GPA 3.93/5
+
+## 技能与证书
+
+- **编程与数据：** Python（Pandas、NumPy、scikit-learn、Matplotlib）、Stata、SQL（窗口函数、多表连接）、SPSS、Excel（数据透视表、SUMIF/VLOOKUP、财务建模函数）
+- **机器学习：** 多元线性回归、逻辑回归、决策树、主成分分析（PCA）、K-means 聚类、VIF 共线性诊断、缺失值插补、缩尾处理、标准化、时间序列交叉验证
+- **语言能力：** CET-4、CET-6 证书
+- **办公技能：** 全国计算机等级考试二级；熟练使用 Microsoft Office、WPS
+
+## 科研与项目
+
+**A 股新能源上市公司量化基本面分析与风控建模** · *2026.05 - 2026.06，课程科研项目*
+
+- 为构建用于信贷风险初筛的公司分层模型，通过 Tushare API 构建了 80 家 A 股新能源上市公司（2021—2025 年）的季度财务面板（1,600 条观测）；完成混合缺失值插补、缩尾处理、Z-score 标准化与 VIF 共线性诊断，构建 6 维特征集。
+- 运用 PCA 提取规模—盈利因子，并用 K-means 完成公司分层；训练并按时序切分了四个风险模型 —— 逻辑回归（原始数据）、逻辑回归（PCA）、默认决策树与调优决策树。
+- 最终选择逻辑回归（原始数据）作为上线模型，测试集 AUC 0.762、KS 0.463 —— 显著高于 0.3 的基准水平并接近 0.5 —— 可在降低过拟合风险的同时，高精度地区分优质公司与高风险公司，优于决策树“一刀切”的刚性划分方式。
+
+**福建省中小商业银行行业发展研究报告** · *2025.07 - 2025.09，课程科研项目*
+
+- 选取福建省内中小商业银行开展行业调研，面向一线员工与中层管理者发放问卷，回收有效问卷 120 份，覆盖城市商业银行、农村商业银行等机构；项目始于实习期间，持续至 2025 年 9 月。
+- 使用 Excel 与 Python 对问卷数据进行统计分析与可视化，并结合银行公开数据考察行业格局，识别出普惠金融风控难题、数字化转型不均衡等痛点。
+- 提出差异化定位与务实数字化转型的建议，撰写完成 3,000 余字研究报告。
+
+## 实习经历
+
+**福州农村商业银行 —— 总行办公室**，*2025.01 - 2025.02，中国福州*
+
+- 收集数据、整理案例，起草十余篇报告与讲话稿。
+- 撰写 10 篇微信公众号文章，制作 3 条反洗钱宣传视频；参与编纂 2024 年度年鉴。
+
+**福州农村商业银行 —— 运营管理部**，*2025.07 - 2025.08，中国福州*
+
+- 协助网点柜面服务与凭证管理；对照合规清单审核 150 余份业务凭证，标记 20 余项差异，均在录入核心系统前完成更正。
+- 搭建两个月的合规跟踪台账，识别出不合规事件上升趋势；建议在网点每日晨会通报典型案例，使此后一个月重复不合规率下降 20%。
+
+**福建省青少年发展基金会 —— 项目助理**，*2026.07 - 2026.08，中国福州*
+
+- 对照资助条件筛查 200 余份“圆梦行动”助学申请，标记 30 余份不符合条件材料，将平均审核周期缩短 2 天；使用 Excel 数据验证下拉搭建电子审核台账，实现纸质与电子双轨留痕。
+- 清洗并标准化多年期助学数据 —— 统一日期格式、金额单位与学校名称写法，去除重复记录并从原始台账补齐缺失字段 —— 形成基金会“圆梦行动”纵向资助数据集。
+- 按年份、设区市与学校类型进行数据透视分析，并与基金会历年公开数据交叉核对，标注统计口径差异；围绕资助规模、地区覆盖、资助成效三个主题设计图表（坐标轴从零开始、直接标注数据标签），成果被采纳进基金会“中华慈善奖”参评材料。
+
+## 校园经历与实践
+
+**东方财富第三届全国 ETF 精英挑战赛 —— 全国二等奖（全国前 1%）**
+
+- 在模拟交易环境中构建 ETF 投资组合，依据多因子筛选（动量、趋势、估值、资金）与行业轮动标准（美林时钟、信用周期、政策方向）挑选 3-5 只 ETF。
+- 约两个月收益率 9%，同期沪深 300 指数（000300.SH）收益率为 -5%。
+
+**经济与管理学院计算机兴趣小组**，*2023.09 - 至今*
+
+- 按老师安排以 Python 实现数据清洗流程自动化，累计处理二十余份面板数据。
+- 为学院实验教学中心与机房提供日常技术支持。
+
+**八毛养老院 —— 志愿者与调研员**，*2026.05 - 2026.06，石河子市*
+
+- 通过半结构化访谈与参与式观察评估老人需求。
+- 设计“四位一体”服务模式（日常照护、教育宣讲、情感陪伴、节日活动），服务 35 位老人。
+- 撰写需求评估报告；在学院官方微信公众号发表 2 篇文章，制作 1 条实践视频。
+19:T1981,# Shiwen Mao
+
+Email: shiwen_mao@163.com · Tel: (+86)13960922882 · Fuzhou, Fujian, China
 
 ## Education
 
-**Shihezi University**, Finance, *2023.08 - 2027.06 (studying)*
-- GPA: 3.91/5 (89.12/100)
-- Core coursework: Western Economics, Accounting, Financial Accounting, Commercial Bank Accounting, Advanced Mathematics, Design of Python Language Program, Data Analysis and Visualization, Big Data Financial Analysis, Econometrics, Statistics, Corporate Finance, Fintech
-- Exchange study: enrolled for one year of transfer study at South China Agricultural University, Sept. 2024 - Jul. 2025
+**Shihezi University (211)**, Finance, *2023.08 - 2027.06 (studying)* — Shihezi, China
 
-## Internship Experience
+- **GPA:** 3.91/5 (89.12/100); **Professional Ranking:** 15/74
+- **Relevant coursework:** Finance, Accounting, Financial Accounting, Advanced Mathematics, Design of Python Language Program, Data Analysis and Visualization, Big Data Financial Analysis, Econometrics, Statistics, Probability and Statistics, Big Data Marketing, Corporate Finance, Fintech
+- **Exchange study:** From Sept. 2024 to Jul. 2025, enrolled for one year of transfer study at South China Agricultural University with a GPA of 3.93/5
 
-**Fujian Youth Development Foundation**, Department Assistant, Fuzhou, China — *2026.07 - 2026.08*
-- Reviewed financial aid applications submitted via municipal Youth League committees and official email inboxes; verified applicants' family financial status to ensure accuracy of eligibility assessments.
-- Supported donation fund management by reconciling incoming donations and maintaining source documents such as donation receipts and bank vouchers.
-- Analyzed historical multi-year data with Excel and produced charts to support project evaluation and public transparency reporting.
+## Skills & Certifications
 
-**Fuzhou Rural Commercial Bank**, Department Assistant, Fuzhou, China — *2025.07 - 2025.08*
-- Assisted in managing branch counter services, supported voucher management, and promoted anti-money laundering initiatives.
-- Assisted in conducting compliance inspections and reviewed business vouchers to ensure operational compliance. Addressed public complaints, collected monthly compliance data, and organized it into spreadsheets.
-
-**Fuzhou Rural Commercial Bank**, Office Assistant, Fuzhou, China — *2025.01 - 2025.02*
-- Responsible for document sorting and archiving, including classifying and storing documents according to established rules and standards.
-- Involved in creating content for WeChat official account articles, producing promotional videos, and compiling annual publications.
-
-## Competitions & Activities
-
-**Third National ETF Elite Challenge** — *2024.10 - 2025.01*
-- Created an ETF investment portfolio in a simulated trading environment; analyzed market conditions and selected promising ETFs for investment.
-- Awarded **National Second Prize**.
-
-**Xuechuang Cup Business Simulation Competition**, Financial Manager — *2026.03 - 2026.04*
-- Responsible for budgeting, cost control, and financial reporting.
-- Used data to analyze market demand and competitor strategies to formulate and adjust production and marketing plans.
-- Managed enterprise resources including procurement, production, and sales; simulated the enterprise achieved relatively high profitability among all participating teams.
-
-## Skills & Certificates
-
-- **Data analysis skills:** Proficient in using Excel, Python, SPSS, Stata for data processing and statistical analysis
+- **Programming & Data:** Python (Pandas, NumPy, scikit-learn, Matplotlib), Stata, SQL (window functions, multi-table joins), SPSS, Excel (pivot tables, SUMIF/VLOOKUP, financial modeling functions)
+- **Machine Learning:** Multiple linear regression, Logistic regression, decision trees, PCA, K-means, VIF diagnostics, missing-value imputation, winsorization, standardization, time-series cross-validation
 - **Language proficiency:** Certificates of CET-4 and CET-6
-- **Office skills:** Passed the National Computer Rank Examination Level 2; proficient in Microsoft Office, WPS, Photoshop, Jianying, Xiumi
-9:["$","$L17",null,{"dataByLocale":{"en":{"type":"text","config":{"type":"text","title":"CV","source":"cv.md"},"content":"$18"}},"defaultLocale":"en"}]
+- **Office skills:** Passed the National Computer Rank Examination Level 2, Microsoft Office, WPS
+
+## Research & Projects
+
+**Quantitative Fundamental Analysis & Risk-Control Modeling of A-Share New Energy Listed Companies** · *May - Jun 2026, Course-based research project*
+
+- To develop a company stratification model for preliminary credit risk screening, built a quarterly financial panel (1,600 observations) of 80 A-share new energy listed companies (2021-2025) via Tushare API; performed hybrid missing-value imputation, winsorization, Z-score standardization, and VIF multicollinearity diagnostics to construct a 6-dimensional feature set.
+- Applied PCA to extract scale-profitability factors and K-means for company tiering; trained and time-series-split four risk models — logistic regression (raw), logistic regression (PCA), default decision tree, and tuned decision tree.
+- Selected logistic regression (raw data) as the final model, achieving test-set AUC 0.762 and KS 0.463 — significantly higher than the KS value of 0.3 and close to 0.5 — which allows for highly accurate differentiation between high-quality and high-risk companies while reducing the risk of overfitting, and outperforms the rigid one-size-fits-all approach of decision trees.
+
+**Research Report on the Industry Development of Small and Medium-Sized Commercial Banks in Fujian** · *Jul 2025 - Sep 2025, Course-based research project*
+
+- Conducted industry research on selected small and medium-sized commercial banks in Fujian, surveying frontline staff and mid-level managers and collecting 120 valid questionnaires covering city commercial banks, rural commercial banks, and others. Initiated during internship, continued through Sept 2025.
+- Used Excel and Python to analyze and visualize the survey data, and combined publicly available bank data to examine the industry landscape, identifying pain points such as risk control challenges in inclusive finance and imbalanced digital transformation.
+- Presented recommendations on differentiated positioning and pragmatic digital transformation, and authored a 3,000+ word research report.
+
+## Internship
+
+**Fuzhou Rural Commercial Bank — General Office, Head Office**, *2025.01 - 2025.02, Fuzhou, China*
+
+- Collecting data, organizing cases, and drafting over ten reports and speeches.
+- Authored 10 WeChat Official Account articles and produced 3 anti-money-laundering awareness videos; compiled the 2024 annual publication.
+
+**Fuzhou Rural Commercial Bank — Operations Management Dept.**, *2025.07 - 2025.08, Fuzhou, China*
+
+- Assisted in managing branch counter services and voucher management, audited 150+ business vouchers against compliance checklists and flagged 20+ discrepancies that were corrected prior to entry into the core banking system.
+- Built a two-month compliance tracking workbook and identified a rising trend in non-compliance incidents; recommended featuring typical cases in daily branch briefings, cut repeat non-compliance by 20% over the following month.
+
+**Fujian Youth Development Foundation — Program Assistant**, *2026.07 - 2026.08, Fuzhou, China*
+
+- Screened 200+ "Yuanmeng" scholarship applications against eligibility criteria; flagged 30+ ineligible cases, cutting average review turnaround by 2 days; built an electronic review ledger with Excel data-validation dropdowns to enable dual-track paper and electronic record keeping.
+- Cleaned and standardized multi-year scholarship data - unifying date formats, amount units and school-name variants, de-duplicating records and recovering missing fields from source ledgers - to build the foundation's longitudinal Yuanmeng assistance dataset.
+- Analysed the dataset with pivot tables across year, prefecture and school type, and cross-validated the results against previously published foundation figures, annotating methodological discrepancies; designed a chart package around three themes (scale, regional coverage, outcomes) using zero-based axes and direct data labels. Output was adopted into the foundation's submission for the China Charity Awards.
+
+## Campus Experience & Practice
+
+**Eastmoney 3rd National ETF Elite Challenge — National Second Prize (top 1% of teams nationwide)**
+
+- Constructed an ETF portfolio in a simulated trading environment and selected 3-5 ETFs using a multi-factor screen (momentum, trend, valuation, capital) and industry-rotation criteria (Merrill Lynch clock, credit cycle, policy direction).
+- Returned 9% over approximately two months against a 000300.SH return of -5%.
+
+**Computer Interest Group, School of Economics and Management**, *Sep 2023 - Present*
+
+- According to the teacher's assignment, automate data cleaning pipeline (Python) and processed over twenty pieces of panel data.
+- Provided day-to-day technical support for the school's experimental teaching center and computer laboratory.
+
+**Volunteer and Researcher, Bamao Nursing Home, Shihezi City**, *May - Jun 2026*
+
+- Assessed elderly residents' needs through semi-structured interviews and participatory observation.
+- Designed a four-pronged service model (daily care, educational outreach, emotional companionship, holiday events) serving 35 elders.
+- Authored a needs-assessment report; published 2 articles in the College official WeChat account and produced 1 daily practice video.
+9:["$","$L17",null,{"dataByLocale":{"zh":{"type":"text","config":{"type":"text","title":"简历","source":"cv.md"},"content":"$18"},"en":{"type":"text","config":{"type":"text","title":"CV","source":"cv.md"},"content":"$19"}},"defaultLocale":"en"}]
 e:null
 12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 d:null
-16:{"metadata":[["$","title","0",{"children":"CV | Shiwen Mao"}],["$","meta","1",{"name":"author","content":"Shiwen Mao"}],["$","meta","2",{"name":"keywords","content":"Shiwen Mao,PhD,Research,Shihezi University"}],["$","meta","3",{"name":"creator","content":"Shiwen Mao"}],["$","meta","4",{"name":"publisher","content":"Shiwen Mao"}],["$","meta","5",{"property":"og:title","content":"Shiwen Mao"}],["$","meta","6",{"property":"og:description","content":"Final-year Finance undergraduate at Shihezi University, aspiring fintech professional."}],["$","meta","7",{"property":"og:site_name","content":"Shiwen Mao's Academic Website"}],["$","meta","8",{"property":"og:locale","content":"en_US"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Shiwen Mao"}],["$","meta","12",{"name":"twitter:description","content":"Final-year Finance undergraduate at Shihezi University, aspiring fintech professional."}],["$","link","13",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}
+16:{"metadata":[["$","title","0",{"children":"CV | Shiwen Mao"}],["$","meta","1",{"name":"author","content":"Shiwen Mao"}],["$","meta","2",{"name":"keywords","content":"Shiwen Mao,PhD,Research,Shihezi University"}],["$","meta","3",{"name":"creator","content":"Shiwen Mao"}],["$","meta","4",{"name":"publisher","content":"Shiwen Mao"}],["$","meta","5",{"property":"og:title","content":"Shiwen Mao"}],["$","meta","6",{"property":"og:description","content":"Final-year Finance undergraduate at Shihezi University, focused on quantitative analysis and data-driven finance."}],["$","meta","7",{"property":"og:site_name","content":"Shiwen Mao's Academic Website"}],["$","meta","8",{"property":"og:locale","content":"en_US"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Shiwen Mao"}],["$","meta","12",{"name":"twitter:description","content":"Final-year Finance undergraduate at Shihezi University, focused on quantitative analysis and data-driven finance."}],["$","link","13",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}
 10:{"metadata":"$16:metadata","error":null,"digest":"$undefined"}
